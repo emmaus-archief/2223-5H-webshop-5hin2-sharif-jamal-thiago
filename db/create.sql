@@ -13,7 +13,7 @@ CREATE TABLE products (
 CREATE TABLE informatie_product (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   information TEXT,
-  rating TEXT,
+  rating NUMERIC(2,2),
   price TEXT
   
 );
@@ -26,7 +26,7 @@ CREATE TABLE informatie_product (
 --
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
-insert into informatie_product (information, rating, price) values ('product', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0');
+insert into informatie_product (information, rating, price) values ('dit is informatie', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0');
 
 insert into products (name, description, code, price) values ('film', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 10.5);
 insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
