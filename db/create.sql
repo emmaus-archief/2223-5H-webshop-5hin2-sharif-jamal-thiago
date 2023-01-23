@@ -15,7 +15,7 @@ CREATE TABLE informatie_product (
   information TEXT,
   rating NUMERIC(2,2),
   price TEXT
-  
+  id VARCHAR(1),
 );
 
 --
