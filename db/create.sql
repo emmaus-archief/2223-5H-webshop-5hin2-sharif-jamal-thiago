@@ -11,7 +11,20 @@ CREATE TABLE products (
   Category_ID NUMERIC (2),
   Rating_Product NUMERIC (2,1)
 );
-CREATE 
+
+CREATE TABLE categorie (
+  
+)
+ --1 : n
+  CREATE TABLE merk ( 
+
+  
+  )
+-- n : m
+  CREATE TABLE soorten computers en componenten
+
+  JOIN -- voor de n : m
+
 
 --
 -- populate with data
