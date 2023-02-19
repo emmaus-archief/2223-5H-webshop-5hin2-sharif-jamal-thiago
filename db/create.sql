@@ -70,36 +70,36 @@ insert into products (name, description, code, price, Rating_Product, Opslag_ID,
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('AMD Ryzen 7 5600X 3D', 'De nieuwe snelle Ryzen 5 serie neemt het op tegen de 12e generatie van Intel. Met de 5600X processor beschikt de processor over de nieuwe AMD Zen 3 architectuur en de Vermeer chip, waardoor de processor nog sneller is en meer cache heeft dan zijn voorgangers!  ', '445924201-X', 330.00, 4, );
+  values ('AMD Ryzen 7 5600X 3D', 'De nieuwe snelle Ryzen 5 serie neemt het op tegen de 12e generatie van Intel. Met de 5600X processor beschikt de processor over de nieuwe AMD Zen 3 architectuur en de Vermeer chip, waardoor de processor nog sneller is en meer cache heeft dan zijn voorgangers!  ', '445924201-X', 330.00, 4, 1, 2);
 
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('AMD Ryzen 5 5600X', '  ', '693155505-7', 190.50, 2);
+  values ('AMD Ryzen 5 5600X', 'De nieuwe snelle Ryzen 5 serie neemt het op tegen de 12e generatie van Intel. Met de 5600 processor beschikt de processor over de nieuwe AMD Zen 3 architectuur en de Vermeer chip, waardoor de processor nog sneller is en meer cache heeft dan zijn voorgangers!   ', '693155505-7', 190.50, 2, 1, 2);
 
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('ASUS ROG STRIX B650E-F GAMING WIFI ', ' ', '686928463-6', 14, 4);
+  values ('ASUS ROG STRIX B650E-F GAMING WIFI', 'Aller nieuwste! ', '686928463-6', 14, 4, 2, 3);
 
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('Asus ROG STRIX B550-F GAMING', '  ', '492662523-7', 14, 2);
+  values ('Asus ROG STRIX B550-F GAMING', 'Een dikke verbetering!  ', '492662523-7', 14, 2, 3, 3);
 
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('Asrock Intel Arc A770', '  ', '492662523-7', 14, 3);
+  values ('Asrock Intel Arc A770', 'De A770 is de de hoger gepositioneerde desktopvideokaart in Intels eerste generatie Arc-GPU's. Met 8 GB aan GDDR6 geheugen met een snelheid van 16 Gbps is geen taak te moeilijk voor de A770.  ', '492662523-7', 14, 3, 4, 1);
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('Asrock Intel Arc A380', ' ', '492662523-7', 14, 3.5);
+  values ('Asrock Intel Arc A380', 'Perfect voor een beginner. ', '492662523-7', 14, 3.5, 1, 4);
 
 
 insert into products (name, description, code, price, Rating_Product, Opslag_ID, Merk_ID) 
   
-  values ('Gigabyte Z790 AORUS ELITE AX', '  ', '492662523-7', 14, 3.5);
+  values ('Gigabyte Z790 AORUS ELITE AX', 'Het GIGABYTE Z790 AORUS ELITE AX moederbord is gebaseerd op de Intel Z790 chipset en ondersteunt 12e en 13de generatie Intel processoren met een 1700 socket. Hierdoor is dit moederbord de ideale oplossing als je een future proof build wilt realiseren.   ', '492662523-7', 14, 3.5, 3, 4);
 
 
 
