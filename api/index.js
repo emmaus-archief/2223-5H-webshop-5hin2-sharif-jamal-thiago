@@ -79,6 +79,8 @@ function getProductById(request, response) {
   let data = []
   const product_id = parseInt(request.params.id)
   const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.Rating_Product AS rating, products.price AS price FROM products WHERE id = ?')
+
+  
   data = sqlOpdracht.all(product_id)
   response.status(200).json(data[0])
 }
