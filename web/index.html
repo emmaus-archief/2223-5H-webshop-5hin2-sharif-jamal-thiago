@@ -63,7 +63,7 @@
 					<p class="product_description card-text"></p>
 					<ul class="product-properties">
 						<li><span class="propert-name">Prijs: </span><span class="product_price"></span></li>
-						 <li><span class="propert-name">Rating: </span><span class ="product_rating"></span><span>/5</span></li>
+						 <li><span class="propert-name">Rating: </span><span class ="product_Rating_Product"></span><span></span></li>
             <li><span class="propert-name">Code: </span><span class="product_code"></span></li>
             <li><span class="propert-name">Opslag: </span><span class="product_opslag">
             </span></li>
@@ -130,7 +130,7 @@
               clone.querySelector(".product_title").textContent = name
               clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}...`
               clone.querySelector(".product_price").textContent = `€${product.price.toFixed(2)}`
-              clone.querySelector(".product_rating").textContent = `${product.rating}`
+              clone.querySelector(".product_Rating_Product").textContent = `${product.ratings}`
               clone.querySelector(".product_code").textContent = product.code
               clone.querySelector(".product_id").value = product.id
               clone.querySelector(".product_id").dataset.json = JSON.stringify(product)
