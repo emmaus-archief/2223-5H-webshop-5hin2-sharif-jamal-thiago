@@ -8,8 +8,8 @@ CREATE TABLE products (
   name VARCHAR(400),
   description TEXT,
   price NUMERIC(10, 3),
-  Category_ID NUMERIC (3),
-  Rating_Product INTEGER
+  Category_ID INTEGER,
+  Rating_Product INTEGER,
   Storage_ID INTEGER,
   Brand_ID INTEGER
 );
@@ -25,19 +25,20 @@ CREATE TABLE storage (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   storage VARCHAR(255) 
 
-)
+);
 -- categorie / component
 CREATE TABLE category (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-    category TEXT
+    category VARCHAR(255)
   
 );
  --1 : n  merk van component / categorie
   CREATE TABLE brand (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    brand TEXT);
-
-  
+    brand VARCHAR(255)
+    
+    
+ 
   );
 
 
