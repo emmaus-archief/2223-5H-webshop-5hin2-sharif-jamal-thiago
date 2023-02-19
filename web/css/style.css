@@ -23,7 +23,7 @@ footer {
 
 .article-container {
   margin: auto;
-  background-color: red;
+  background-color: lightgrey;
 }
 
 .card {
@@ -80,5 +80,5 @@ footer {
 }
 
 body {
-  background-color: lightblue;
+  background-color: lightgrey;
 }
